@@ -1,0 +1,27 @@
+{
+  "extends": "tslint:recommended",
+  "rules": {
+    "indent": [true, "spaces"],
+    "max-line-length": {
+      "options": [120]
+    },
+    "member-ordering": false,
+    "new-parens": true,
+    "no-arg": true,
+    "no-bitwise": true,
+    "no-conditional-assignment": true,
+    "no-console": {
+      "severity": "warning",
+      "options": [
+        "debug",
+        "info",
+        "log",
+        "time",
+        "timeEnd",
+        "trace"
+      ]
+    },
+    "quotemark": [true, "single", "avoid-escape", "avoid-template"],
+    "trailing-comma": false
+  }
+}

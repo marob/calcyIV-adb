@@ -1,0 +1,32 @@
+{
+  "name": "calcyIV-adb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node lib/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marob/calcyIV-adb.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marob/calcyIV-adb/issues"
+  },
+  "homepage": "https://github.com/marob/calcyIV-adb#readme",
+  "dependencies": {
+    "color-convert": "^1.9.1",
+    "commander": "^2.15.1",
+    "jimp": "^0.2.28",
+    "winston": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/color-convert": "^1.9.0",
+    "@types/node": "^10.3.2",
+    "tslint": "^5.10.0",
+    "typescript": "^2.9.1"
+  }
+}
